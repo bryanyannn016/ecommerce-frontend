@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Exo+2&family=Nunito:wght@700&display=swap');
+
+.main {
+  background-color: rgb(12, 12, 14);
+  color: white;
+  margin-top: 50px;
+  padding-bottom: 35px;
+}
+.home-banner {
+  width: 100vw;
+}
+
+.category-tile {
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-top: 30px;
+}
+
+
+.card {
+  border: none !important;
+  width: 15rem !important;
+  font-family: 'Exo 2';
+}
+img.card-img-top.product-preview-img {
+  border-radius: 5px;
+}
+
+.category-tile:hover {
+  transform: scale(1.05);
+}
+/* 
+.sale__banner--container img {
+  max-width: 1200px;
+  display: block;
+  margin: 0 auto;
+} */
+
+.main h1 {
+  padding-top: 110px;
+  margin-bottom: 25px;
+  font-family: 'Dela Gothic One', sans-serif;
+  text-align: center;
+  color: white;
+  letter-spacing: 2.5px;
+  font-size: 50px;
+}
+
+.main h2 {
+  padding-top: 110px;
+  margin-bottom: 25px;
+  font-family: 'Nunito', sans-serif;
+  text-align: left;
+  color: white;
+}
+
+.main p {
+  font-size: 20px;
+  font-family: 'Exo 2';
+  margin-bottom: 50px;
+}
+
+.home-category{
+  width: 100vw;
+  margin-top: 50px;
+  padding-top: 70px;
+  padding-bottom: 150px;
+  background-color: rgb(12, 12, 14);
+  font-family: 'Exo 2';
+}
+
+.home-category h2{
+  font-family: 'Dela Gothic One';
+  text-align: center;
+  color: white;
+  letter-spacing: 2.5px;
+  font-size: 50px;
+}
+
+.home-category p {
+  font-size: 20px;
+  font-family: 'Exo 2';
+  margin-bottom: 50px;
+}

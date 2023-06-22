@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Exo+2&family=Nunito:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.search-page h2 {
+  margin-top: 75px;
+  margin-bottom: 50px;
+  font-size: 65px;
+  font-family: 'Bebas Neue';
+  letter-spacing: 5px;
+}
+
+.search-page {
+  height: 100vh;
+}

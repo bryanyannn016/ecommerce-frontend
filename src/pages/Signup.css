@@ -1,0 +1,40 @@
+.signup__image--container {
+  background-image: url(https://images.unsplash.com/photo-1593376853899-fbb47a057fa0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=715&q=80);
+  height: 100vh;
+  background-size: cover;
+}
+
+.signup__form--container,
+.login__form--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+.login__image--container {
+  background-image: url(https://images.unsplash.com/photo-1613974089244-916ec6dda17c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80);
+  height: 100vh;
+  background-size: cover;
+}
+
+@media screen and (max-width: 756px) {
+  .login__image--container,
+  .signup__image--container {
+    display: none;
+  }
+}
+
+
+.signup-page {
+  height:100vh;
+  width: 100vw;
+  padding-left:20vw;
+  margin-right: 0;
+  position: fixed;
+  font-family: 'Exo 2';
+  background-color: rgb(37, 40, 46);
+}
+
+/* https://images.unsplash.com/photo-1612690669207-fed642192c40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8dGVjaHxlbnwwfDF8MHx3aGl0ZXw%3D&auto=format&fit=crop&w=800&q=60 */

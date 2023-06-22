@@ -1,0 +1,40 @@
+.fa-plus-circle,
+.fa-minus-circle {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.fa-plus-circle {
+  margin-left: 5px;
+  color: green;
+}
+
+.fa-minus-circle {
+  margin-right: 5px;
+  color: red;
+}
+
+.table-responsive-sm {
+  max-height: 70vh;
+  overflow: scroll;  
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none; 
+}
+
+.table-responsive-sm::-webkit-scrollbar {
+  display: none;
+}
+
+.cart-container {
+  margin-top: 100px;
+}
+
+.cart-container h1 {
+  font-family: 'Bebas Neue';
+  margin-bottom: 50px;
+}
+
+.order-details {
+  margin-right: 20px;
+  margin-left: 20px;
+}

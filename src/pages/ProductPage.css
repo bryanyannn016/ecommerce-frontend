@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Exo+2&family=Nunito:wght@700&display=swap');
+
+.product__carousel--image {
+  max-width: 100%;
+  object-fit: cover;
+  max-height: 500px;
+  border-radius: 20px;
+  background-color: rgb(69, 72, 79);
+  padding: 3px;
+}
+
+.alice-carousel__prev-btn,
+.alice-carousel__next-btn {
+  display: none !important;
+}
+
+.product-detail {
+  margin-top: 40px;
+  padding-top: 25px;
+  background-color: rgb(43, 45, 49);
+  color: white;
+}
+
+
+.product-detail h1 {
+
+  font-family: 'Exo 2', sans-serif;
+  text-align: center;
+  color: white;
+  letter-spacing: 2.5px;
+  font-size: px;
+}
+
+.my-4 h2 {
+  padding-top: 110px;
+  margin-bottom: 25px;
+  font-family: 'Exo 2', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.product-detail p {
+  font-family: 'Exo 2';
+  margin-bottom: 15px;
+  font-size: 17px;
+}
+
+.product__price {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.pt-4.container{
+  padding-bottom: 10px;
+}
+
+
